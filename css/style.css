@@ -1,0 +1,161 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+header {
+    padding: 50px 150px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+nav > ul {
+    display: flex;
+    gap: 40px;
+    
+}
+
+nav li {
+    list-style: none;
+    font-weight: 500;
+    font-size: 1rem;
+    
+}
+
+nav li a {
+    text-decoration: none;
+    color: #424242;
+}
+
+/* Banner Container */
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.banner-content {
+   /* width: 900px; */
+   padding: 100px;
+   
+}
+.banner img {
+    width: 50%;
+    /* flex: 1; */
+}
+
+/* Gamer Section */
+
+.gamer-container {
+    display: flex;
+    padding: 90px;
+    
+}
+
+.gamer-img img {
+    width: 90%;
+   
+}
+
+.gamer-details {
+    text-align: end;
+}
+
+/* Videos Section */
+
+.videos-card-container {
+    display: flex;
+    justify-content: space-around;
+}
+.videos-content {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.card {
+    border-radius: 8px;
+    text-align: center;
+    padding: 20px;
+
+}
+.card img {
+    width: 100%;
+    height: 80%;
+}
+
+/* Play Instantly Section */
+
+.play-instantly {
+    /* display: flex;
+    justify-content: space-between; */
+    margin-top: 130px;
+    display: flex;
+    gap: 100px;
+}
+.play-instantly-content {
+    padding: 80px;
+}
+/* .play-instantly-img{
+    width: 100%;
+    
+} */
+.play-instantly-img img {
+    width: 70%;
+    margin-left: 90px;
+}
+.instant-img img {
+    border-radius: 8px;
+    width: 250px;
+   padding: 40px -10px;
+    position: relative;
+    bottom: 100px;
+}
+
+/* Careers Section */
+.careers-container {
+    display: flex;
+}
+.careers-img img{
+    width: 100%;
+}
+
+/* Games Item Section */
+
+.games-item-container {
+    display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 10px;
+            margin-top: 30px;
+            gap: 30px;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    background-color: lightslategrey;
+    border-radius: 40px;
+    height: 50px;
+    padding: 3px 6px;
+    width: max-content;
+    gap: 5px;
+}
+.item img {
+    width: 40px;
+    height: 40px;
+}
+
+/* Footer Section */
+
+footer {
+    background-color: coral;
+    height: 350px;
+    color:cyan;
+    padding-top: 2px;
+}
