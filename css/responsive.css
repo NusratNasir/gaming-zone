@@ -1,6 +1,5 @@
 /* responsive styles */
 
-/* mobile devices */
 
 @media screen and (max-width:800px) {
     nav,
@@ -34,7 +33,11 @@
         margin: 0px;
         padding: 0px;
     }
-   
+   .videos-content,
+   .gamer-details {
+    text-align: start;
+
+   }
     .games-item-container {
         display: grid;
         grid-template-columns:repeat(3, 1fr);
@@ -46,6 +49,36 @@
         height: 20px;
         width: max-content;
         gap: 5px;
+    }
+    .heading-title{
+        font-size: 16px;
+    font-weight: 600;
+    }
+    .paragraph-text {
+        color: black;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 10px;
+    }
+
+    .banner-title,
+     .banner-p {
+        color: #0B0223;
+        text-align: start;
+        font-size: 18px;
+        font-weight: 400;
+        text-transform: uppercase;
+    }
+    .goat-text {
+        text-align: start;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
     }
 }
 

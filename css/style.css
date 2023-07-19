@@ -134,11 +134,13 @@ background: #4EC5F7;
 .gamer-container {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
     height: 400px;
+    
 }
 .gamer-content {
     display: flex;
     width: 1140px;
     margin: 0px auto;
+    padding-top: 50px;
 }
 .gamer-img img {
     width: 100%;
@@ -162,12 +164,13 @@ line-height: 25px;
 /* Videos Section */
 .video-container {
  width: 1140px;
-    margin: 0px auto;
+    margin: 80px auto;
 }
 
 .videos-content {
     text-align: center;
-    margin-top: 20px;
+    margin-bottom: 50px;
+    padding-top: 50px;
 }
 
 .videos-card-container {
@@ -243,17 +246,18 @@ line-height: 20px;
 .careers-container {
     display: flex;
     width: 1140px;
-    margin: 0 auto;
+    margin: 0px auto;
     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
     gap: 20px;
     
 }
 .career-content {
-    width: 80%;
-    color: wheat;
-    padding: 30 50px;
+    width: 70%;
+   padding-top: 50px;
 }
-
+.white-text {
+    color: #FFF;
+}
 .career-content-inner {
     display: flex;
     justify-content: space-between;
@@ -264,6 +268,7 @@ line-height: 20px;
 #btn-position {
     background-color: #FFF;
     border-radius: 48px;
+    margin: 30px 0px;
 padding: 15px 30px;
 color: #FF42A5;
 font-size: 16px;
@@ -273,7 +278,7 @@ border: none;
 }
 .careers-img img{
     width: 100%;
-    padding: 50px;
+    padding: 0px;
 }
 
 /* Games Item Section */
@@ -312,8 +317,9 @@ border: none;
 footer {
     background: #0B0223;
     color: #FFF;
-    height: 450px;
+    height: 400px;
     text-align: center;
+    padding-top: 50px;
 }
 .logo-footer {
     display: flex;
@@ -342,10 +348,4 @@ font-size: 16px;
 footer li a{
     text-decoration: none;
 }
-/* .social-icon{
-  
-} */
 
-.hidden {
-    display: none;
-}
