@@ -17,8 +17,10 @@
         padding: 0px;
         text-align: center;
     }
-.footer ul {
-    flex-direction: column;
+footer ul {
+    display: grid;
+        grid-template-columns:repeat(2, 1fr);
+        column-gap: 5px;
 }
 
     .banner-content,
@@ -29,7 +31,7 @@
     .career-content,
     .careers-img
      {
-        width: 100%;
+        width: 80%;
         margin: 0px;
         padding: 0px;
     }
@@ -51,14 +53,14 @@
         gap: 5px;
     }
     .heading-title{
-        font-size: 16px;
+        font-size: 18px;
     font-weight: 600;
     }
     .paragraph-text {
 
     font-size: 12px;
     font-weight: 400;
-    line-height: 10px;
+    line-height: 12px;
     }
 
     .banner-title,

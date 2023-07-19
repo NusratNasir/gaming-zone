@@ -140,13 +140,14 @@ background: #4EC5F7;
     display: flex;
     width: 1140px;
     margin: 0px auto;
-    padding-top: 50px;
+    padding: 50px 0px;
 }
 .gamer-img img {
     width: 100%;
 }
 .gamer-details {
     text-align: end;
+
 }
 #gamer-title {
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
@@ -317,9 +318,8 @@ border: none;
 footer {
     background: #0B0223;
     color: #FFF;
-    height: 400px;
     text-align: center;
-    padding-top: 50px;
+    padding: 100px;
 }
 .logo-footer {
     display: flex;
