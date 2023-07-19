@@ -1,0 +1,51 @@
+/* responsive styles */
+
+/* mobile devices */
+
+@media screen and (max-width:800px) {
+    nav,
+    nav > ul,
+    .banner-container,
+    .gamer-content,
+    .videos-card-container,
+    .play-instantly,
+    .careers-container
+    
+     {
+        flex-direction: column;
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+.footer ul {
+    flex-direction: column;
+}
+
+    .banner-content,
+    .banner-img,
+    .gamer-img,
+    .play-instantly-content,
+    .play-instantly-img,
+    .career-content,
+    .careers-img
+     {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+    }
+   
+    .games-item-container {
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        column-gap: 0px;
+        width: 100px;
+    }
+    .item {
+        border-radius: 40px;
+        height: 20px;
+        width: max-content;
+        gap: 5px;
+    }
+}
+
