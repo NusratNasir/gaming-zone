@@ -55,7 +55,7 @@
     font-weight: 600;
     }
     .paragraph-text {
-        color: black;
+
     font-size: 12px;
     font-weight: 400;
     line-height: 10px;
@@ -63,7 +63,6 @@
 
     .banner-title,
      .banner-p {
-        color: #0B0223;
         text-align: start;
         font-size: 18px;
         font-weight: 400;
@@ -80,5 +79,8 @@
     -webkit-text-fill-color: transparent;
     margin: 0;
     }
+    .play-instantly-content {
+        text-align: start;
+     }
 }
 
